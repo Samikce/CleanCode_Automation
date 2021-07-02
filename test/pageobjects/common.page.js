@@ -3,23 +3,23 @@ const Page = require('./page');
 /**
  * sub page containing specific selectors and methods for a specific page
  */
-class LoginPage extends Page {
+class Common extends Page {
     /**
      * define selectors using getter methods
      */
-    get username () { return $('#user-name') }
-    get password () { return $('#password') }
-    get btn () { return $('#login-button') }
+    
 
+     get product () { return $('.inventory_item_name') }
+     get heading () { return $('.header_secondary_container') }
     /**
      * a method to encapsule automation code to interact with the page
      * e.g. to login using username and password
      */
-    /*async login (username, password) {
-        await (await this.username).setValue(username);
-        await (await this.password).setValue(password);
-        await (await this.btn).click();
-    }*/
+    //async login (username, password) {
+        //await (await this.addcart).setValue(user-name);
+       // await (await this.password).setValue(password);
+       // await (await this.btn).click();
+   // }
 
     /**
      * overwrite specifc options to adapt it to page object
@@ -29,4 +29,4 @@ class LoginPage extends Page {
    // }
 }
 
-module.exports = new LoginPage();
+module.exports = new Common();
