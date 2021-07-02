@@ -14,6 +14,7 @@ class Overview extends Page {
     get item_total() { return $('.summary_subtotal_label')}
     get tax() { return $('.summary_tax_label')}
     get total() { return $('.summary_total_label')}
+    get thank_message() { return $('.complete-header')}
     get home() { return $('#back-to-products')}
     
     //get heading () { return $('<span />') }

@@ -52,6 +52,7 @@ describe ("Interaction with web element",function () {
         // const txt = 'Sauce Labs Bike Light';
         // console.log(txt == val);
         Overview.finish.click();
+        expect(Overview.thank_message.getText()).to.deep.equal("THANK YOU FOR YOUR ORDER");
         Overview.home.click();
            
     });
