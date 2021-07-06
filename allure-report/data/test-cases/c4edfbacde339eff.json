@@ -1,0 +1,182 @@
+{
+  "uid" : "c4edfbacde339eff",
+  "name" : "\"before all\" hook for Ordering the Product",
+  "fullName" : "Ordering the Product.\"before all\" hook for Ordering the Product",
+  "historyId" : "c388a16325173e35e3682f7527a93f9c",
+  "time" : {
+    "start" : 1625590537432,
+    "stop" : 1625590541579,
+    "duration" : 4147
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1625590537434,
+        "stop" : 1625590537741,
+        "duration" : 307
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a8f78c1427be6d93",
+        "name" : "Response",
+        "source" : "a8f78c1427be6d93.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1625590537746,
+        "stop" : 1625590541578,
+        "duration" : 3832
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b1b1efc648e7990a",
+        "name" : "Request",
+        "source" : "b1b1efc648e7990a.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-1"
+  }, {
+    "name" : "suite",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "testClass",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for Ordering the Product"
+  }, {
+    "name" : "package",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-10.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3598efa0e39993d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625590537432,
+        "stop" : 1625590541310,
+        "duration" : 3878
+      }
+    }, {
+      "uid" : "99ecad6435242261",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625590485034,
+        "stop" : 1625590487434,
+        "duration" : 2400
+      }
+    }, {
+      "uid" : "17ec98f49aaed24e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625590484838,
+        "stop" : 1625590487542,
+        "duration" : 2704
+      }
+    }, {
+      "uid" : "cd4eb6d92e0b4b65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625590194196,
+        "stop" : 1625590197068,
+        "duration" : 2872
+      }
+    }, {
+      "uid" : "36c4c25921a4c721",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625590192098,
+        "stop" : 1625590194039,
+        "duration" : 1941
+      }
+    }, {
+      "uid" : "6caed420fe681d54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625589994093,
+        "stop" : 1625589995597,
+        "duration" : 1504
+      }
+    }, {
+      "uid" : "e546966f47880dae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625589989530,
+        "stop" : 1625589992140,
+        "duration" : 2610
+      }
+    }, {
+      "uid" : "361244fe5674768c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625589789307,
+        "stop" : 1625589795808,
+        "duration" : 6501
+      }
+    }, {
+      "uid" : "9e6de9d49590ea12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625589789305,
+        "stop" : 1625589795813,
+        "duration" : 6508
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c4edfbacde339eff.json",
+  "parameterValues" : [ "firefox-10.0" ]
+}

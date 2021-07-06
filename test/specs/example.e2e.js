@@ -8,7 +8,7 @@ const Overview = require('../pageobjects/overview.page')
 const { expect, should } = require("chai")
 //const assert = require('assert');
 //const expect = require('chai').use(require('chai-as-promised')).expect;
-describe ("Interaction with web element",function () { 
+describe ("Ordering the Product",function () { 
     before(() => {
         browser.maximizeWindow();
         browser.url('https://www.saucedemo.com/');
@@ -18,8 +18,11 @@ describe ("Interaction with web element",function () {
     // });
     it("Login Functionality ", function(){
         //LoginPage.open();
+        LoginPage.username.waitForDisplayed({timeout : 30000});
         LoginPage.username.setValue('standard_user');
+        // LoginPage.username.waitForDisplayed({timeout : 30000});
         LoginPage.password.setValue('secret_sauce');
+        LoginPage.password.waitForDisplayed()
         LoginPage.btn.click();
 
 
