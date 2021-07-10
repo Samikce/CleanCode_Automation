@@ -10,6 +10,11 @@ class Common extends Page {
     
 
      get product () { return $('.inventory_item_name') }
+    //  multi_product (item_name) 
+    //  { 
+    //      if()
+    //      return $$('inventory_item_name')
+    //     }
      get heading () { return $('.header_secondary_container') }
     /**
      * a method to encapsule automation code to interact with the page

@@ -24,15 +24,13 @@ describe ("Ordering the Product",function () {
         LoginPage.password.setValue('secret_sauce');
         LoginPage.password.waitForDisplayed()
         LoginPage.btn.click();
-
-
     });
     it('Add cart to checkout',()=>
     {
-        Checkout.addcart.click();
+        Checkout.adding_cart("Sauce Labs Bike Light")
         Checkout.clickcart.click();
         expect(Common.product.getText()).to.equal('Sauce Labs Bike Light');
-        expect(Common.heading.getText()).to.equal('YOUR CART')
+        expect(Common.heading.getText()).to.equal('YOUR CART');
         Checkout.checkout.click();
     });
     it('Entering Information' ,()=> 
