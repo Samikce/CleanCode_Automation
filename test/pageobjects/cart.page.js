@@ -1,36 +1,30 @@
 const Page = require('./page');
-const { expect, should } = require("chai")
+const { expect, should } = require("chai");
+const AddCartPage = require('./addcart.page');
 /**
  * sub page containing specific selectors and methods for a specific page
  */
 class CartPage extends Page {
 
-    cart_items(item_name)
+    cart_items(item)
     {
-        var cart_details = {
-            item_Name : [],
-            item_Price : []
+        var cartDetails = {
+            itemNameinCart : [],
+            itemPriceinCart : []
         }
-        var cart_selector = $$('.inventory_item_name');
-        cart_selector.map(function check(ele,index) 
+        AddCartPage.commonSelector.forEach((element,index) =>
         {
-            console.log(ele.getText());
-            if(item_name.includes(ele.getText()))
+            if(item.includes(element.getText()))
             {
-                console.log(item_name)
-                console.log(index);
-                var product = ele.getText();
-                console.log(product);
-                cart_details.item_Name.push(product);
-                let item_price = $$('.inventory_item_price')[index];
-                let text = item_price.getText();
-                let price_number = Number(text.slice(1));
-                cart_details.item_Price.push(price_number);
-                console.log(price_number);
+                cartDetails.itemNameinCart.push(element.getText());
+                cartDetails.itemPriceinCart.push(this.slicingFromDollar(AddCartPage.getingPrice[index].getText()));
             }
-
-        })
-        return cart_details;
-}
+         });
+         return cartDetails;
+    } 
+    slicingFromDollar(priceString)
+    {
+        return Number(priceString.slice(1));
+    }
 }
 module.exports = new CartPage();

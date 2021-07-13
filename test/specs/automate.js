@@ -6,20 +6,23 @@ const Overview = require('../pageobjects/overview.page')
 const { expect, should } = require("chai")
 const CartPage = require('../pageobjects/cart.page')
 const pricePage = require('../pageobjects/price.page')
+const TestData = require('../data/testdata.data')
 describe ("Ordering the Product",function () { 
     before(() => {
         browser.maximizeWindow();
         browser.url('https://www.saucedemo.com/');
     });
     it("Login Functionality ", function(){
-        LoginPage.username.setValue('standard_user');
-        LoginPage.password.setValue('secret_sauce');
+        LoginPage.username.setValue(TestData.userName);
+        LoginPage.password.setValue(TestData.passWord);
         LoginPage.btn.click();
     });
     it('Adding the item to the cart utill it get placing the order',()=>
     {
-        var item = ['Sauce Labs Backpack','Sauce Labs Bike Light','Sauce Labs Bolt T-Shirt','Sauce Labs Fleece Jacket','Sauce Labs Onesie','Test.allTheThings() T-Shirt (Red)'];
-        var detail = Checkout.adding_cart(item);
+        // var item = ['Sauce Labs Backpack','Sauce Labs Bike Light',
+        // 'Sauce Labs Bolt T-Shirt','Sauce Labs Fleece Jacket','Sauce Labs Onesie',
+        // 'Test.allTheThings() T-Shirt (Red)'];
+        var detail = Checkout.adding_cart(loginData.item);
         console.log(detail);
         Checkout.clickcart.click();
         var item_name = detail.item_nam;
