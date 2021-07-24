@@ -1,0 +1,108 @@
+{
+  "uid" : "7a76191ac7d728f0",
+  "name" : "\"before all\" hook for Ordering the Product",
+  "fullName" : "Ordering the Product.\"before all\" hook for Ordering the Product",
+  "historyId" : "d0bcfa971cb2bcee01dcfe2c4ab0171a",
+  "time" : {
+    "start" : 1625737223037,
+    "stop" : 1625737227792,
+    "duration" : 4755
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1625737223040,
+        "stop" : 1625737223198,
+        "duration" : 158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4352ec55ca9daace",
+        "name" : "Response",
+        "source" : "4352ec55ca9daace.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1625737223201,
+        "stop" : 1625737227791,
+        "duration" : 4590
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2c85bd4b8fa8db22",
+        "name" : "Request",
+        "source" : "2c85bd4b8fa8db22.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "testClass",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for Ordering the Product"
+  }, {
+    "name" : "package",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a76191ac7d728f0.json",
+  "parameterValues" : [ "chrome" ]
+}

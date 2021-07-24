@@ -1,0 +1,113 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626694390438' stop='1626694396109'>
+    <name>Ordering the Product</name>
+    <title>Ordering the Product</title>
+    <test-cases>
+        <test-case start='1626694390439' status='passed' stop='1626694395557'>
+            <name>"before all" hook for Ordering the Product</name>
+            <title>"before all" hook for Ordering the Product</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1626694390441' status='passed' stop='1626694390610'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='8ad11124-f966-40c9-809c-1aab2b93a2a4-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626694390619' status='passed' stop='1626694395556'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='6ce3ab94-cf1b-401a-b0d6-c95ae1a59716-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1626694395557' status='passed' stop='1626694396106'>
+            <name>Login Functionality </name>
+            <title>Login Functionality </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1626694395564' status='passed' stop='1626694395609'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='08084549-fb85-4679-be13-3c39c6a9943c-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='e340353b-a281-4c05-92cc-53c3b2145ddb-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626694395625' status='passed' stop='1626694395969'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='068ed631-9a7a-423e-88b0-4d4715f3d932-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='3d168141-24c0-4bda-bc0f-721e6d31c8d6-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626694395975' status='passed' stop='1626694395992'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='84d3d769-d216-4f67-aae6-d0e3b44c0e17-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='40352dce-2e63-4136-9d3f-77d4e4602f33-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626694395999' status='passed' stop='1626694396055'>
+                    <name>POST /session/:sessionId/element/d463b10c-1301-49c8-97c9-f78d91a78164/click</name>
+                    <title>POST /session/:sessionId/element/d463b10c-1301-49c8-97c9-f78d91a78164/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626694396055' status='passed' stop='1626694396105'>
+                    <name>POST /session/:sessionId/element/83aa86ea-e984-488a-b29d-178e34411b44/click</name>
+                    <title>POST /session/:sessionId/element/83aa86ea-e984-488a-b29d-178e34411b44/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1626694396106' status='broken' stop='1626694396108'>
+            <name>Logout Functionality</name>
+            <title>Logout Functionality</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>LogoutPage is not defined</message>
+                <stack-trace>ReferenceError: LogoutPage is not defined
+                    at Context.&lt;anonymous> (F:\Automation\Test\test\specs\inventory.spec.js:21:33)
+                    at Context.executeSync (F:\Automation\Test\node_modules\@wdio\sync\build\index.js:25:22)
+                    at F:\Automation\Test\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

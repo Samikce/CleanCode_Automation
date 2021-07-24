@@ -1,0 +1,134 @@
+{
+  "uid" : "fbafdcf9db0267b9",
+  "name" : "\"before all\" hook for Interaction with web element",
+  "fullName" : "Interaction with web element.\"before all\" hook for Interaction with web element",
+  "historyId" : "aca6864eb37631b30dc5b029655bb4f2",
+  "time" : {
+    "start" : 1625561228938,
+    "stop" : 1625561276417,
+    "duration" : 47479
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1625561231704,
+        "stop" : 1625561239132,
+        "duration" : 7428
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e56eae740f2c56a8",
+        "name" : "Response",
+        "source" : "e56eae740f2c56a8.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1625561239139,
+        "stop" : 1625561276415,
+        "duration" : 37276
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f556da6fcf05dbfb",
+        "name" : "Request",
+        "source" : "f556da6fcf05dbfb.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interaction with web element"
+  }, {
+    "name" : "testClass",
+    "value" : "Interaction with web element"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for Interaction with web element"
+  }, {
+    "name" : "package",
+    "value" : "Interaction with web element"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-10.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b10eb0cde06547e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625561228938,
+        "stop" : 1625561276428,
+        "duration" : 47490
+      }
+    }, {
+      "uid" : "5194d5176217cfb1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625560007406,
+        "stop" : 1625560058408,
+        "duration" : 51002
+      }
+    }, {
+      "uid" : "5d7f542d12d3fb71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625560007404,
+        "stop" : 1625560058408,
+        "duration" : 51004
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fbafdcf9db0267b9.json",
+  "parameterValues" : [ "firefox-10.0" ]
+}

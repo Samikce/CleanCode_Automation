@@ -22,8 +22,9 @@ describe ("Ordering the Product",function () {
         // var item = ['Sauce Labs Backpack','Sauce Labs Bike Light',
         // 'Sauce Labs Bolt T-Shirt','Sauce Labs Fleece Jacket','Sauce Labs Onesie',
         // 'Test.allTheThings() T-Shirt (Red)'];
-        var detail = Checkout.adding_cart(loginData.item);
-        console.log(detail);
+        var detail = Checkout.adding_cart(TestData.item);
+        //console.log(detail);
+
         Checkout.clickcart.click();
         var item_name = detail.item_nam;
         var price = detail.item_price;
@@ -31,8 +32,8 @@ describe ("Ordering the Product",function () {
         expect(Common.heading.getText()).to.equal('YOUR CART');
         var cart_Details = CartPage.cart_items(item_name);
         //console.log(cart_Details);
-        var cart_Item_Name = cart_Details.item_Name;
-        var cart_Item_Price  = cart_Details.item_Price;
+        var cart_Item_Name = cart_Details.itemNameinCart;
+        var cart_Item_Price  = cart_Details.itemPriceinCart;
         expect(cart_Item_Name).to.deep.include.members(item_name);
         expect(cart_Item_Price).to.deep.include.members(price);
         Checkout.checkout.click();
@@ -44,8 +45,8 @@ describe ("Ordering the Product",function () {
         expect(Common.heading.getText()).to.equal('CHECKOUT: OVERVIEW');
         var finish_Details = CartPage.cart_items(item_name);
         //console.log(cart_Details);
-        var finish_Item_Name = cart_Details.item_Name;
-        var finish_Item_Price  = cart_Details.item_Price;
+        var finish_Item_Name = cart_Details.itemNameinCart;
+        var finish_Item_Price  = cart_Details.itemPriceinCart;
         expect(finish_Item_Name).to.deep.include.members(item_name);
         expect(finish_Item_Price).to.deep.include.members(price);
         expect(Overview.payment.getText()).to.equal('SauceCard #31337');

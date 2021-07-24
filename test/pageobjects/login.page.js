@@ -10,6 +10,7 @@ class LoginPage extends Page {
     get username () { return $('#user-name') }
     get password () { return $('#password') }
     get btn () { return $('#login-button') }
+    get heading () { return $('.title')}
 
     /**
      * a method to encapsule automation code to interact with the page

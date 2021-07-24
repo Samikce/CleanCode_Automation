@@ -22,7 +22,7 @@ describe ("Ordering the Product",function () {
     {
         let itemDetails = AddCartPage.addingCart(TestData.item);
         //var itemDetails = item.forEach((element)=>{AddCartPage.addingCart(element)}); // returning undefind
-        //console.log(itemDetails.itemName + "Hello");
+        //console.log(itemDetails + "Hello");
         Checkout.clickcart.click();
         let productName = itemDetails.itemName;
         let productPrice = itemDetails.itemPrice;

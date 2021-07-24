@@ -1,0 +1,485 @@
+{
+  "uid" : "c54e3d1ae266bcf2",
+  "name" : "Login Functionality ",
+  "fullName" : "Ordering the Product.Login Functionality ",
+  "historyId" : "170c931a796a32f842ac5e9397dff0a3",
+  "time" : {
+    "start" : 1626703192966,
+    "stop" : 1626703194918,
+    "duration" : 1952
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element not interactable\n                  (Session info: chrome=91.0.4472.124)",
+  "statusTrace" : "element not interactable\n                  (Session info: chrome=91.0.4472.124)\n                    at Object.getErrorFromResponseBody (F:\\Automation\\Test\\node_modules\\@wdio\\runner\\node_modules\\webdriver\\build\\utils.js:94:12)\n                    at WebDriverRequest._request (F:\\Automation\\Test\\node_modules\\@wdio\\runner\\node_modules\\webdriver\\build\\request.js:134:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Element.elementErrorHandlerCallbackFn (F:\\Automation\\Test\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\middlewares.js:17:32)\n                    at async Element.runCommandWithHooks (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:70:25)\n                    at Element.runCommandWithHooks (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Element.wrapCommandFn (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.elementErrorHandlerCallback (F:\\Automation\\Test\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\middlewares.js:34:12)\n                    at Browser.logoutProcedure (F:\\Automation\\Test\\test\\commands\\logout.command.js:6:16)\n                    at F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\runFnInFiberContext.js:13:35\n                    at Browser.runCommandWithHooks (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Browser.logoutProcedure (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Browser.next [as logoutProcedure] (F:\\Automation\\Test\\node_modules\\@wdio\\runner\\node_modules\\@wdio\\utils\\build\\monad.js:95:33)\n                    at Context.<anonymous> (F:\\Automation\\Test\\test\\specs\\inventory.spec.js:23:17)\n                    at Context.executeSync (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element not interactable\n                  (Session info: chrome=91.0.4472.124)",
+    "statusTrace" : "element not interactable\n                  (Session info: chrome=91.0.4472.124)\n                    at Object.getErrorFromResponseBody (F:\\Automation\\Test\\node_modules\\@wdio\\runner\\node_modules\\webdriver\\build\\utils.js:94:12)\n                    at WebDriverRequest._request (F:\\Automation\\Test\\node_modules\\@wdio\\runner\\node_modules\\webdriver\\build\\request.js:134:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Element.elementErrorHandlerCallbackFn (F:\\Automation\\Test\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\middlewares.js:17:32)\n                    at async Element.runCommandWithHooks (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:70:25)\n                    at Element.runCommandWithHooks (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Element.wrapCommandFn (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.elementErrorHandlerCallback (F:\\Automation\\Test\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\middlewares.js:34:12)\n                    at Browser.logoutProcedure (F:\\Automation\\Test\\test\\commands\\logout.command.js:6:16)\n                    at F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\runFnInFiberContext.js:13:35\n                    at Browser.runCommandWithHooks (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Browser.logoutProcedure (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Browser.next [as logoutProcedure] (F:\\Automation\\Test\\node_modules\\@wdio\\runner\\node_modules\\@wdio\\utils\\build\\monad.js:95:33)\n                    at Context.<anonymous> (F:\\Automation\\Test\\test\\specs\\inventory.spec.js:23:17)\n                    at Context.executeSync (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1626703192969,
+        "stop" : 1626703193009,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3646cbc60279b63a",
+        "name" : "Request",
+        "source" : "3646cbc60279b63a.json",
+        "type" : "application/json",
+        "size" : 54
+      }, {
+        "uid" : "952343964faf2fc0",
+        "name" : "Response",
+        "source" : "952343964faf2fc0.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1626703193018,
+        "stop" : 1626703193115,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ec3d62eed866941b",
+        "name" : "Request",
+        "source" : "ec3d62eed866941b.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "a3c20b3d6974bda",
+        "name" : "Response",
+        "source" : "a3c20b3d6974bda.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1626703193119,
+        "stop" : 1626703193138,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a918f42f0a87a6a2",
+        "name" : "Request",
+        "source" : "a918f42f0a87a6a2.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "b6a6947acf1f8043",
+        "name" : "Response",
+        "source" : "b6a6947acf1f8043.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1626703193145,
+        "stop" : 1626703193266,
+        "duration" : 121
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "53837307042057a9",
+        "name" : "Request",
+        "source" : "53837307042057a9.json",
+        "type" : "application/json",
+        "size" : 5893
+      }, {
+        "uid" : "ea86e6c8df45c4eb",
+        "name" : "Response",
+        "source" : "ea86e6c8df45c4eb.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/a98dbcc8-54d1-474e-bae0-655e517375cc/clear",
+      "time" : {
+        "start" : 1626703193267,
+        "stop" : 1626703193311,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/a98dbcc8-54d1-474e-bae0-655e517375cc/value",
+      "time" : {
+        "start" : 1626703193351,
+        "stop" : 1626703193531,
+        "duration" : 180
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b07f092d7b42a914",
+        "name" : "Request",
+        "source" : "b07f092d7b42a914.json",
+        "type" : "application/json",
+        "size" : 29
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1626703193532,
+        "stop" : 1626703193557,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5705352fb15a4152",
+        "name" : "Request",
+        "source" : "5705352fb15a4152.json",
+        "type" : "application/json",
+        "size" : 5893
+      }, {
+        "uid" : "737699f70671dc67",
+        "name" : "Response",
+        "source" : "737699f70671dc67.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/fb9a6d06-39d2-472a-8367-71562b0840b8/clear",
+      "time" : {
+        "start" : 1626703193557,
+        "stop" : 1626703193594,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/fb9a6d06-39d2-472a-8367-71562b0840b8/value",
+      "time" : {
+        "start" : 1626703193595,
+        "stop" : 1626703193762,
+        "duration" : 167
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bb14a336b9cf2ccc",
+        "name" : "Request",
+        "source" : "bb14a336b9cf2ccc.json",
+        "type" : "application/json",
+        "size" : 28
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1626703193763,
+        "stop" : 1626703193824,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a67ae36bc84e9ceb",
+        "name" : "Request",
+        "source" : "a67ae36bc84e9ceb.json",
+        "type" : "application/json",
+        "size" : 5893
+      }, {
+        "uid" : "7341ebcf42dd34c",
+        "name" : "Response",
+        "source" : "7341ebcf42dd34c.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1626703193824,
+        "stop" : 1626703193907,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ef01180f4e525cb7",
+        "name" : "Request",
+        "source" : "ef01180f4e525cb7.json",
+        "type" : "application/json",
+        "size" : 4285
+      }, {
+        "uid" : "48bc6cfe2ac188d3",
+        "name" : "Response",
+        "source" : "48bc6cfe2ac188d3.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/1e503258-c8b1-4574-9050-8f5f2e776a76/click",
+      "time" : {
+        "start" : 1626703193909,
+        "stop" : 1626703194308,
+        "duration" : 399
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1626703194308,
+        "stop" : 1626703194611,
+        "duration" : 303
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "131567f9afe6c425",
+        "name" : "Request",
+        "source" : "131567f9afe6c425.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "fc68d40a78a7190c",
+        "name" : "Response",
+        "source" : "fc68d40a78a7190c.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1626703194629,
+        "stop" : 1626703194672,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "40d1e3edc4dde0dc",
+        "name" : "Request",
+        "source" : "40d1e3edc4dde0dc.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "fd011c522d375b5f",
+        "name" : "Response",
+        "source" : "fd011c522d375b5f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1626703194676,
+        "stop" : 1626703194701,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9d36ed39db7205b6",
+        "name" : "Request",
+        "source" : "9d36ed39db7205b6.json",
+        "type" : "application/json",
+        "size" : 5893
+      }, {
+        "uid" : "e8d0c4a3837b11ac",
+        "name" : "Response",
+        "source" : "e8d0c4a3837b11ac.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/f302b9cf-d73a-4417-89c8-9babd9a79622/click",
+      "time" : {
+        "start" : 1626703194702,
+        "stop" : 1626703194744,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1626703194745,
+        "stop" : 1626703194790,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ab0ddbe4b40f0b90",
+        "name" : "Request",
+        "source" : "ab0ddbe4b40f0b90.json",
+        "type" : "application/json",
+        "size" : 5893
+      }, {
+        "uid" : "f2b70a69b5797750",
+        "name" : "Response",
+        "source" : "f2b70a69b5797750.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/741baba7-b12d-481f-861d-381cbdc4a790/click",
+      "time" : {
+        "start" : 1626703194790,
+        "stop" : 1626703194918,
+        "duration" : 128
+      },
+      "status" : "broken",
+      "statusMessage" : "element not interactable\n                  (Session info: chrome=91.0.4472.124)\n                    at Object.getErrorFromResponseBody (F:\\Automation\\Test\\node_modules\\@wdio\\runner\\node_modules\\webdriver\\build\\utils.js:94:12)\n                    at WebDriverRequest._request (F:\\Automation\\Test\\node_modules\\@wdio\\runner\\node_modules\\webdriver\\build\\request.js:134:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Element.elementErrorHandlerCallbackFn (F:\\Automation\\Test\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\middlewares.js:17:32)\n                    at async Element.runCommandWithHooks (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:70:25)\n                    at Element.runCommandWithHooks (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Element.wrapCommandFn (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.elementErrorHandlerCallback (F:\\Automation\\Test\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\middlewares.js:34:12)\n                    at Browser.logoutProcedure (F:\\Automation\\Test\\test\\commands\\logout.command.js:6:16)\n                    at F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\runFnInFiberContext.js:13:35\n                    at Browser.runCommandWithHooks (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Browser.logoutProcedure (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Browser.next [as logoutProcedure] (F:\\Automation\\Test\\node_modules\\@wdio\\runner\\node_modules\\@wdio\\utils\\build\\monad.js:95:33)\n                    at Context.<anonymous> (F:\\Automation\\Test\\test\\specs\\inventory.spec.js:23:17)\n                    at Context.executeSync (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 24,
+    "stepsCount" : 18,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "testClass",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login Functionality "
+  }, {
+    "name" : "package",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c54e3d1ae266bcf2.json",
+  "parameterValues" : [ "chrome" ]
+}

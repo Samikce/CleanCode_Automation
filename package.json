@@ -4,7 +4,8 @@
   "description": "Automation Script",
   "main": "index.js",
   "scripts": {
-    "test": "npx wdio run ./wdio.conf.js"
+    "test": "npx wdio run ./wdio.conf.js",
+    "allure" : "allure generate allure-results --clean && allure open"
   },
   "author": "Samiappan",
   "license": "ISC",

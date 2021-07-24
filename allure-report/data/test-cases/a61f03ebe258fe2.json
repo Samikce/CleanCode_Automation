@@ -1,0 +1,118 @@
+{
+  "uid" : "a61f03ebe258fe2",
+  "name" : "Finish Order",
+  "fullName" : "Ordering the Product.Finish Order",
+  "historyId" : "b79663ee217c3073906b6b2b8bb13d82",
+  "time" : {
+    "start" : 1626891907260,
+    "stop" : 1626891907459,
+    "duration" : 199
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected 'YOUR CART' to equal 'CHECKOUT: OVERVIEW'",
+  "statusTrace" : "AssertionError: expected 'YOUR CART' to equal 'CHECKOUT: OVERVIEW'\n                    at check_ (F:\\Automation\\Test\\test\\utilites\\helper.js:32:28)\n                    at Context.<anonymous> (F:\\Automation\\Test\\test\\specs\\practice.js:38:9)\n                    at Context.executeSync (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 'YOUR CART' to equal 'CHECKOUT: OVERVIEW'",
+    "statusTrace" : "AssertionError: expected 'YOUR CART' to equal 'CHECKOUT: OVERVIEW'\n                    at check_ (F:\\Automation\\Test\\test\\utilites\\helper.js:32:28)\n                    at Context.<anonymous> (F:\\Automation\\Test\\test\\specs\\practice.js:38:9)\n                    at Context.executeSync (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1626891907261,
+        "stop" : 1626891907398,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cdd6c836d859dee8",
+        "name" : "Request",
+        "source" : "cdd6c836d859dee8.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "5e888f04e0c7a28c",
+        "name" : "Response",
+        "source" : "5e888f04e0c7a28c.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/706c0efc-3e3f-4cb6-be1a-dae7371b0876/text",
+      "time" : {
+        "start" : 1626891907404,
+        "stop" : 1626891907458,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ad345929821fc50a",
+        "name" : "Response",
+        "source" : "ad345929821fc50a.json",
+        "type" : "application/json",
+        "size" : 11
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "testClass",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Finish Order"
+  }, {
+    "name" : "package",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a61f03ebe258fe2.json",
+  "parameterValues" : [ "chrome" ]
+}

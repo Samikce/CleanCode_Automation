@@ -1,0 +1,339 @@
+{
+  "uid" : "ae388b9bbdeca8e1",
+  "name" : "Logout Functionality",
+  "fullName" : "Ordering the Product.Logout Functionality",
+  "historyId" : "edca57f3525ae257b16e7255d0325b9b",
+  "time" : {
+    "start" : 1626697211015,
+    "stop" : 1626697211726,
+    "duration" : 711
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1626697211016,
+        "stop" : 1626697211311,
+        "duration" : 295
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1d17ebc35cc2bd3e",
+        "name" : "Request",
+        "source" : "1d17ebc35cc2bd3e.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "a0f45b88f24af133",
+        "name" : "Response",
+        "source" : "a0f45b88f24af133.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1626697211332,
+        "stop" : 1626697211389,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8711eec4427bbf13",
+        "name" : "Request",
+        "source" : "8711eec4427bbf13.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "501b4f672989dc16",
+        "name" : "Response",
+        "source" : "501b4f672989dc16.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1626697211399,
+        "stop" : 1626697211576,
+        "duration" : 177
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b7aaba4055896a12",
+        "name" : "Request",
+        "source" : "b7aaba4055896a12.json",
+        "type" : "application/json",
+        "size" : 5893
+      }, {
+        "uid" : "6cf5923ad4833228",
+        "name" : "Response",
+        "source" : "6cf5923ad4833228.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/6adb395d-9930-4c7a-9cf6-d25a98f38533/click",
+      "time" : {
+        "start" : 1626697211577,
+        "stop" : 1626697211626,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1626697211627,
+        "stop" : 1626697211655,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d4bacb29c91360df",
+        "name" : "Request",
+        "source" : "d4bacb29c91360df.json",
+        "type" : "application/json",
+        "size" : 5893
+      }, {
+        "uid" : "515d6eb9b557a5ee",
+        "name" : "Response",
+        "source" : "515d6eb9b557a5ee.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/06955b89-38d3-45eb-9cc5-a73ccae47179/click",
+      "time" : {
+        "start" : 1626697211658,
+        "stop" : 1626697211726,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 8,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "testClass",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Logout Functionality"
+  }, {
+    "name" : "package",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3041c8647bbe0ce8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626697101059,
+        "stop" : 1626697101298,
+        "duration" : 239
+      }
+    }, {
+      "uid" : "226c81813935283b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626696956143,
+        "stop" : 1626696956514,
+        "duration" : 371
+      }
+    }, {
+      "uid" : "eaba1c7baaefbf31",
+      "status" : "broken",
+      "statusDetails" : "browser.logoutProcedure is not a function",
+      "time" : {
+        "start" : 1626696883166,
+        "stop" : 1626696883263,
+        "duration" : 97
+      }
+    }, {
+      "uid" : "95e5b623ca724e3e",
+      "status" : "broken",
+      "statusDetails" : "browser.logoutProcedure is not a function",
+      "time" : {
+        "start" : 1626696668608,
+        "stop" : 1626696668734,
+        "duration" : 126
+      }
+    }, {
+      "uid" : "75f22dc6c7e1e23e",
+      "status" : "broken",
+      "statusDetails" : "browser.logoutProcedure is not a function",
+      "time" : {
+        "start" : 1626696636606,
+        "stop" : 1626696636670,
+        "duration" : 64
+      }
+    }, {
+      "uid" : "487a9a5f04096164",
+      "status" : "broken",
+      "statusDetails" : "browser.logoutProcedure is not a function",
+      "time" : {
+        "start" : 1626696551600,
+        "stop" : 1626696551673,
+        "duration" : 73
+      }
+    }, {
+      "uid" : "f6564d50ea945e8f",
+      "status" : "broken",
+      "statusDetails" : "browser.logoutProcedure is not a function",
+      "time" : {
+        "start" : 1626696463933,
+        "stop" : 1626696464061,
+        "duration" : 128
+      }
+    }, {
+      "uid" : "c782e270a140dd17",
+      "status" : "broken",
+      "statusDetails" : "browser.logoutProcedure is not a function",
+      "time" : {
+        "start" : 1626696360023,
+        "stop" : 1626696360128,
+        "duration" : 105
+      }
+    }, {
+      "uid" : "3cc41769b9d0b2a",
+      "status" : "broken",
+      "statusDetails" : "browser.logoutProcedure is not a function",
+      "time" : {
+        "start" : 1626696313134,
+        "stop" : 1626696313198,
+        "duration" : 64
+      }
+    }, {
+      "uid" : "fcae328079475347",
+      "status" : "broken",
+      "statusDetails" : "browser.logoutProcedure is not a function",
+      "time" : {
+        "start" : 1626694537371,
+        "stop" : 1626694537545,
+        "duration" : 174
+      }
+    }, {
+      "uid" : "87c3c80ab299c0a5",
+      "status" : "broken",
+      "statusDetails" : "LogoutPage is not defined",
+      "time" : {
+        "start" : 1626694396106,
+        "stop" : 1626694396108,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "ef7b9d25bc861cb7",
+      "status" : "broken",
+      "statusDetails" : "LogoutPage is not defined",
+      "time" : {
+        "start" : 1626694151583,
+        "stop" : 1626694151585,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "d09eb325d8f782ba",
+      "status" : "broken",
+      "statusDetails" : "LogoutPage is not defined",
+      "time" : {
+        "start" : 1626694057356,
+        "stop" : 1626694057356,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cd2fdbbf27a28652",
+      "status" : "broken",
+      "statusDetails" : "LogoutPage is not defined",
+      "time" : {
+        "start" : 1626680914327,
+        "stop" : 1626680914328,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ade5d0c751f5908a",
+      "status" : "broken",
+      "statusDetails" : "LogoutPage is not defined",
+      "time" : {
+        "start" : 1626676383867,
+        "stop" : 1626676383870,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae388b9bbdeca8e1.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,110 @@
+{
+  "uid" : "a80c1881d4481c30",
+  "name" : "\"before all\" hook for Automating every thing",
+  "fullName" : "Automating every thing.\"before all\" hook for Automating every thing",
+  "historyId" : "889a7bb66ec13929ef4f371af9e19ad8",
+  "time" : {
+    "start" : 1625730705610,
+    "stop" : 1625730708637,
+    "duration" : 3027
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1625730705785,
+        "stop" : 1625730706172,
+        "duration" : 387
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "831b8f74b457eb46",
+        "name" : "Response",
+        "source" : "831b8f74b457eb46.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1625730706176,
+        "stop" : 1625730708637,
+        "duration" : 2461
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4588bb12d9825356",
+        "name" : "Request",
+        "source" : "4588bb12d9825356.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automating every thing"
+  }, {
+    "name" : "testClass",
+    "value" : "Automating every thing"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for Automating every thing"
+  }, {
+    "name" : "package",
+    "value" : "Automating every thing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a80c1881d4481c30.json",
+  "parameterValues" : [ "chrome" ]
+}

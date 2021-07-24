@@ -1,0 +1,118 @@
+{
+  "uid" : "70427f76bdbe1ebe",
+  "name" : "Add cart to checkout",
+  "fullName" : "Ordering the Product.Add cart to checkout",
+  "historyId" : "24d39953254b315d420c87792dc2a61b",
+  "time" : {
+    "start" : 1625817121151,
+    "stop" : 1625817121221,
+    "duration" : 70
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected 'PRODUCTS\\nNAME (A TO Z)\\nName (A to Z)\\nName (Z to A)\\nPrice (low to high)\\nPrice (high to low)' to equal 'YOUR CART'",
+  "statusTrace" : "AssertionError: expected 'PRODUCTS\\nNAME (A TO Z)\\nName (A to Z)\\nName (Z to A)\\nPrice (low to high)\\nPrice (high to low)' to equal 'YOUR CART'\n                    at Context.<anonymous> (F:\\Automation\\Test\\test\\specs\\automate.js:20:45)\n                    at Context.executeSync (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 'PRODUCTS\\nNAME (A TO Z)\\nName (A to Z)\\nName (Z to A)\\nPrice (low to high)\\nPrice (high to low)' to equal 'YOUR CART'",
+    "statusTrace" : "AssertionError: expected 'PRODUCTS\\nNAME (A TO Z)\\nName (A to Z)\\nName (Z to A)\\nPrice (low to high)\\nPrice (high to low)' to equal 'YOUR CART'\n                    at Context.<anonymous> (F:\\Automation\\Test\\test\\specs\\automate.js:20:45)\n                    at Context.executeSync (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1625817121152,
+        "stop" : 1625817121183,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "de0ee70555ed16f6",
+        "name" : "Request",
+        "source" : "de0ee70555ed16f6.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "7704a7feb28addd6",
+        "name" : "Response",
+        "source" : "7704a7feb28addd6.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/6a664180-261d-4827-a9d5-72d93c07363e/text",
+      "time" : {
+        "start" : 1625817121185,
+        "stop" : 1625817121218,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b3db903e863509a5",
+        "name" : "Response",
+        "source" : "b3db903e863509a5.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "testClass",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add cart to checkout"
+  }, {
+    "name" : "package",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "70427f76bdbe1ebe.json",
+  "parameterValues" : [ "chrome" ]
+}

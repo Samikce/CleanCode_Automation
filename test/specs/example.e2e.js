@@ -27,7 +27,7 @@ describe ("Ordering the Product",function () {
     });
     it('Add cart to checkout',()=>
     {
-        Checkout.adding_cart("Sauce Labs Bike Light")
+        Checkout.addcart.click()
         Checkout.clickcart.click();
         expect(Common.product.getText()).to.equal('Sauce Labs Bike Light');
         expect(Common.heading.getText()).to.equal('YOUR CART');

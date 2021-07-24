@@ -11,6 +11,7 @@ class Checkout extends Page {
     //get addcart () { return $('[class = 'btn btn_primary btn_small btn_inventory']') }
     get clickcart() { return $('#shopping_cart_container') }
     get checkout() { return $('#checkout')}
+    get addcart() { return $('#add-to-cart-sauce-labs-bike-light')}
      
    adding_cart(item_name)
     {

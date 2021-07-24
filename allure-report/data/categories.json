@@ -1,5 +1,56 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "error is not defined",
+      "children" : [ {
+        "name" : "\"after all\" hook for Ordering the Product",
+        "uid" : "ad40e330ec36c235",
+        "parentUid" : "2aa24ea4d799b7a5910ccb54325e94b2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625590189631,
+          "stop" : 1625590189633,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "\"after all\" hook for Ordering the Product",
+        "uid" : "a9c868189b797784",
+        "parentUid" : "2aa24ea4d799b7a5910ccb54325e94b2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625590200795,
+          "stop" : 1625590200797,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-10.0" ]
+      } ],
+      "uid" : "2aa24ea4d799b7a5910ccb54325e94b2"
+    }, {
+      "name" : "prompt is not defined",
+      "children" : [ {
+        "name" : "Adding to cart",
+        "uid" : "347d8872efe131a",
+        "parentUid" : "591b2e2ee32c72b672797e40b00f6c07",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625730715378,
+          "stop" : 1625730716642,
+          "duration" : 1264
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "591b2e2ee32c72b672797e40b00f6c07"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
 }

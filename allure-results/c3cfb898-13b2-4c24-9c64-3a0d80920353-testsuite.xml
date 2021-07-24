@@ -1,0 +1,157 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626680906032' stop='1626680914698'>
+    <name>Ordering the Product</name>
+    <title>Ordering the Product</title>
+    <test-cases>
+        <test-case start='1626680906032' status='passed' stop='1626680914123'>
+            <name>"before all" hook for Ordering the Product</name>
+            <title>"before all" hook for Ordering the Product</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1626680906033' status='passed' stop='1626680906186'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='7a95b08a-995f-49c8-8e59-57fd536d8d71-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626680906188' status='passed' stop='1626680914123'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ce99a704-0839-4cd3-b38f-b234dcfc7dc3-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1626680914123' status='broken' stop='1626680914326'>
+            <name>Login Functionality </name>
+            <title>Login Functionality </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1626680914129' status='passed' stop='1626680914156'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d11360e0-0b88-4420-b808-748dcd054bc1-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='80ec1a6f-90c7-4706-a1a9-aa0ef6f6d2e0-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626680914169' status='passed' stop='1626680914294'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6c60ef22-8797-4f24-9d43-a1ba245e4d6e-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='1af709ce-0941-46a2-9a43-a0e4b08be063-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626680914301' status='passed' stop='1626680914320'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='df28ad6f-9d37-47bd-bae3-48c70e20ce98-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='72602f5d-c3d1-4b20-8b3e-85cf0f0d3a6b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.loginProcedure is not a function</message>
+                <stack-trace>TypeError: browser.loginProcedure is not a function
+                    at Context.&lt;anonymous> (F:\Automation\Test\test\specs\inventory.spec.js:21:17)
+                    at Context.executeSync (F:\Automation\Test\node_modules\@wdio\sync\build\index.js:25:22)
+                    at F:\Automation\Test\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1626680914327' status='broken' stop='1626680914328'>
+            <name>Logout Functionality</name>
+            <title>Logout Functionality</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>LogoutPage is not defined</message>
+                <stack-trace>ReferenceError: LogoutPage is not defined
+                    at Context.&lt;anonymous> (F:\Automation\Test\test\specs\inventory.spec.js:24:33)
+                    at Context.executeSync (F:\Automation\Test\node_modules\@wdio\sync\build\index.js:25:22)
+                    at F:\Automation\Test\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1626680914328' status='broken' stop='1626680914697'>
+            <name>Filter</name>
+            <title>Filter</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1626680914328' status='passed' stop='1626680914482'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a999fd89-8150-4871-9619-7d32df7c1705-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='64be376e-d06b-4f54-8597-278a9a016a93-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626680914487' status='passed' stop='1626680914502'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d37c5e4c-6c11-4fbe-abdb-72cd0debfc9c-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='22b8ad89-2e7d-4a39-a9b3-6d07f31a00d8-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626680914504' status='passed' stop='1626680914684'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='16ca9c8e-9371-4396-acad-2d4d2cad1327-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='d7a08276-cd25-419e-9c10-f6f5706bc475-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.loginProcedure is not a function</message>
+                <stack-trace>TypeError: browser.loginProcedure is not a function
+                    at Context.&lt;anonymous> (F:\Automation\Test\test\specs\inventory.spec.js:27:17)
+                    at Context.executeSync (F:\Automation\Test\node_modules\@wdio\sync\build\index.js:25:22)
+                    at F:\Automation\Test\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

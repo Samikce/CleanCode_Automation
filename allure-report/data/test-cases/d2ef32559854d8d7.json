@@ -1,0 +1,145 @@
+{
+  "uid" : "d2ef32559854d8d7",
+  "name" : "Add cart to checkout",
+  "fullName" : "Ordering the Product.Add cart to checkout",
+  "historyId" : "24d39953254b315d420c87792dc2a61b",
+  "time" : {
+    "start" : 1625813413958,
+    "stop" : 1625813414092,
+    "duration" : 134
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "$$(...).eq is not a function",
+  "statusTrace" : "TypeError: $$(...).eq is not a function\n                    at F:\\Automation\\Test\\test\\pageobjects\\checkout.page.js:21:64\n                    at Array.forEach (<anonymous>)\n                    at Checkout.adding_cart (F:\\Automation\\Test\\test\\pageobjects\\checkout.page.js:17:25)\n                    at Context.<anonymous> (F:\\Automation\\Test\\test\\specs\\automate.js:19:18)\n                    at Context.executeSync (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "$$(...).eq is not a function",
+    "statusTrace" : "TypeError: $$(...).eq is not a function\n                    at F:\\Automation\\Test\\test\\pageobjects\\checkout.page.js:21:64\n                    at Array.forEach (<anonymous>)\n                    at Checkout.adding_cart (F:\\Automation\\Test\\test\\pageobjects\\checkout.page.js:17:25)\n                    at Context.<anonymous> (F:\\Automation\\Test\\test\\specs\\automate.js:19:18)\n                    at Context.executeSync (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1625813413959,
+        "stop" : 1625813414012,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d88f562cbd1342f3",
+        "name" : "Request",
+        "source" : "d88f562cbd1342f3.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "dd82dfb874d25a70",
+        "name" : "Response",
+        "source" : "dd82dfb874d25a70.json",
+        "type" : "application/json",
+        "size" : 548
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/0bd8eb02-7d1d-4d00-aea3-58a1100de35c/text",
+      "time" : {
+        "start" : 1625813414022,
+        "stop" : 1625813414051,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d6ddea0767981585",
+        "name" : "Response",
+        "source" : "d6ddea0767981585.json",
+        "type" : "application/json",
+        "size" : 21
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1625813414052,
+        "stop" : 1625813414078,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d83423b47a3adfb1",
+        "name" : "Request",
+        "source" : "d83423b47a3adfb1.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "c2b1637295bb8ce2",
+        "name" : "Response",
+        "source" : "c2b1637295bb8ce2.json",
+        "type" : "application/json",
+        "size" : 548
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 5,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "testClass",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add cart to checkout"
+  }, {
+    "name" : "package",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d2ef32559854d8d7.json",
+  "parameterValues" : [ "chrome" ]
+}

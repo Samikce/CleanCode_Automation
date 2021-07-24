@@ -1,0 +1,118 @@
+{
+  "uid" : "dfabfabe6923bb2",
+  "name" : "Entering Information",
+  "fullName" : "Ordering the Product.Entering Information",
+  "historyId" : "1f5ab9f8df29dd634ab6cba1d00290a0",
+  "time" : {
+    "start" : 1625737228720,
+    "stop" : 1625737228775,
+    "duration" : 55
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected 'PRODUCTS\\nNAME (A TO Z)\\nName (A to Z)\\nName (Z to A)\\nPrice (low to high)\\nPrice (high to low)' to equal 'CHECKOUT: YOUR INFORMATION'",
+  "statusTrace" : "AssertionError: expected 'PRODUCTS\\nNAME (A TO Z)\\nName (A to Z)\\nName (Z to A)\\nPrice (low to high)\\nPrice (high to low)' to equal 'CHECKOUT: YOUR INFORMATION'\n                    at check_ (F:\\Automation\\Test\\test\\utilites\\helper.js:32:28)\n                    at Context.<anonymous> (F:\\Automation\\Test\\test\\specs\\practice.js:30:9)\n                    at Context.executeSync (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 'PRODUCTS\\nNAME (A TO Z)\\nName (A to Z)\\nName (Z to A)\\nPrice (low to high)\\nPrice (high to low)' to equal 'CHECKOUT: YOUR INFORMATION'",
+    "statusTrace" : "AssertionError: expected 'PRODUCTS\\nNAME (A TO Z)\\nName (A to Z)\\nName (Z to A)\\nPrice (low to high)\\nPrice (high to low)' to equal 'CHECKOUT: YOUR INFORMATION'\n                    at check_ (F:\\Automation\\Test\\test\\utilites\\helper.js:32:28)\n                    at Context.<anonymous> (F:\\Automation\\Test\\test\\specs\\practice.js:30:9)\n                    at Context.executeSync (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1625737228721,
+        "stop" : 1625737228746,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dca77e3f4d5b518c",
+        "name" : "Request",
+        "source" : "dca77e3f4d5b518c.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "253d9357d4e72ad8",
+        "name" : "Response",
+        "source" : "253d9357d4e72ad8.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/2f756ac4-56ae-49ef-9883-1a1b811999ee/text",
+      "time" : {
+        "start" : 1625737228749,
+        "stop" : 1625737228772,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d05262d26e846e56",
+        "name" : "Response",
+        "source" : "d05262d26e846e56.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "testClass",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Entering Information"
+  }, {
+    "name" : "package",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dfabfabe6923bb2.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,118 @@
+{
+  "uid" : "9ce01ec451f09c93",
+  "name" : "Adding the item to the cart utill it get placing the order",
+  "fullName" : "Ordering the Product.Adding the item to the cart utill it get placing the order",
+  "historyId" : "4b5768427340bb8a97606c67c4776cd3",
+  "time" : {
+    "start" : 1626180787312,
+    "stop" : 1626180787424,
+    "duration" : 112
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'push' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'push' of undefined\n                    at F:\\Automation\\Test\\test\\pageobjects\\addcart.page.js:15:34\n                    at Array.forEach (<anonymous>)\n                    at AddCartPage.addingCart (F:\\Automation\\Test\\test\\pageobjects\\addcart.page.js:11:29)\n                    at F:\\Automation\\Test\\test\\specs\\automate.spec.js:24:64\n                    at Array.forEach (<anonymous>)\n                    at Context.<anonymous> (F:\\Automation\\Test\\test\\specs\\automate.spec.js:24:32)\n                    at Context.executeSync (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read property 'push' of undefined",
+    "statusTrace" : "TypeError: Cannot read property 'push' of undefined\n                    at F:\\Automation\\Test\\test\\pageobjects\\addcart.page.js:15:34\n                    at Array.forEach (<anonymous>)\n                    at AddCartPage.addingCart (F:\\Automation\\Test\\test\\pageobjects\\addcart.page.js:11:29)\n                    at F:\\Automation\\Test\\test\\specs\\automate.spec.js:24:64\n                    at Array.forEach (<anonymous>)\n                    at Context.<anonymous> (F:\\Automation\\Test\\test\\specs\\automate.spec.js:24:32)\n                    at Context.executeSync (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1626180787313,
+        "stop" : 1626180787378,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a16db3672b374057",
+        "name" : "Request",
+        "source" : "a16db3672b374057.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "1c4b7f5d828bf5ba",
+        "name" : "Response",
+        "source" : "1c4b7f5d828bf5ba.json",
+        "type" : "application/json",
+        "size" : 548
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/1c95acab-8fe9-49c0-a5be-8fc1549434fd/text",
+      "time" : {
+        "start" : 1626180787393,
+        "stop" : 1626180787421,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c94f1ec842ce939f",
+        "name" : "Response",
+        "source" : "c94f1ec842ce939f.json",
+        "type" : "application/json",
+        "size" : 21
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "testClass",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Adding the item to the cart utill it get placing the order"
+  }, {
+    "name" : "package",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9ce01ec451f09c93.json",
+  "parameterValues" : [ "chrome" ]
+}

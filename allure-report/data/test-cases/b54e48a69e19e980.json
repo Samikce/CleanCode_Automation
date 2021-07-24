@@ -1,0 +1,97 @@
+{
+  "uid" : "b54e48a69e19e980",
+  "name" : "Add cart to checkout",
+  "fullName" : "Ordering the Product.Add cart to checkout",
+  "historyId" : "24d39953254b315d420c87792dc2a61b",
+  "time" : {
+    "start" : 1625920341694,
+    "stop" : 1625920341726,
+    "duration" : 32
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "common_selector.getText is not a function",
+  "statusTrace" : "TypeError: common_selector.getText is not a function\n                    at Checkout.adding_cart (F:\\Automation\\Test\\test\\pageobjects\\checkout.page.js:24:25)\n                    at Context.<anonymous> (F:\\Automation\\Test\\test\\specs\\automate.js:22:31)\n                    at Context.executeSync (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "common_selector.getText is not a function",
+    "statusTrace" : "TypeError: common_selector.getText is not a function\n                    at Checkout.adding_cart (F:\\Automation\\Test\\test\\pageobjects\\checkout.page.js:24:25)\n                    at Context.<anonymous> (F:\\Automation\\Test\\test\\specs\\automate.js:22:31)\n                    at Context.executeSync (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1625920341695,
+        "stop" : 1625920341714,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "60e9eb6dcb76885c",
+        "name" : "Request",
+        "source" : "60e9eb6dcb76885c.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "e84efef301efaf0b",
+        "name" : "Response",
+        "source" : "e84efef301efaf0b.json",
+        "type" : "application/json",
+        "size" : 548
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "testClass",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add cart to checkout"
+  }, {
+    "name" : "package",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b54e48a69e19e980.json",
+  "parameterValues" : [ "chrome" ]
+}

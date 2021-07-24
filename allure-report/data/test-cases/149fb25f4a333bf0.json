@@ -1,0 +1,229 @@
+{
+  "uid" : "149fb25f4a333bf0",
+  "name" : "Adding the item to the cart utill it get placing the order",
+  "fullName" : "Ordering the Product.Adding the item to the cart utill it get placing the order",
+  "historyId" : "4b5768427340bb8a97606c67c4776cd3",
+  "time" : {
+    "start" : 1626175338028,
+    "stop" : 1626175339129,
+    "duration" : 1101
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "details.item_price is not a function",
+  "statusTrace" : "TypeError: details.item_price is not a function\n                    at F:\\Automation\\Test\\test\\pageobjects\\addcart.page.js:18:25\n                    at Array.forEach (<anonymous>)\n                    at AddCartPage.addingCart (F:\\Automation\\Test\\test\\pageobjects\\addcart.page.js:11:29)\n                    at F:\\Automation\\Test\\test\\specs\\automate.spec.js:24:46\n                    at Array.forEach (<anonymous>)\n                    at Context.<anonymous> (F:\\Automation\\Test\\test\\specs\\automate.spec.js:24:14)\n                    at Context.executeSync (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "details.item_price is not a function",
+    "statusTrace" : "TypeError: details.item_price is not a function\n                    at F:\\Automation\\Test\\test\\pageobjects\\addcart.page.js:18:25\n                    at Array.forEach (<anonymous>)\n                    at AddCartPage.addingCart (F:\\Automation\\Test\\test\\pageobjects\\addcart.page.js:11:29)\n                    at F:\\Automation\\Test\\test\\specs\\automate.spec.js:24:46\n                    at Array.forEach (<anonymous>)\n                    at Context.<anonymous> (F:\\Automation\\Test\\test\\specs\\automate.spec.js:24:14)\n                    at Context.executeSync (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1626175338029,
+        "stop" : 1626175338283,
+        "duration" : 254
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "558f028b967f7833",
+        "name" : "Request",
+        "source" : "558f028b967f7833.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "180a3c27d37e4f4c",
+        "name" : "Response",
+        "source" : "180a3c27d37e4f4c.json",
+        "type" : "application/json",
+        "size" : 548
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/1d3d876e-f2aa-4dcd-b112-4c9cf88a499e/text",
+      "time" : {
+        "start" : 1626175338299,
+        "stop" : 1626175338322,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "485281f1e3e6d003",
+        "name" : "Response",
+        "source" : "485281f1e3e6d003.json",
+        "type" : "application/json",
+        "size" : 21
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/1d3d876e-f2aa-4dcd-b112-4c9cf88a499e/text",
+      "time" : {
+        "start" : 1626175338323,
+        "stop" : 1626175338341,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ddacaa06e15c46b9",
+        "name" : "Response",
+        "source" : "ddacaa06e15c46b9.json",
+        "type" : "application/json",
+        "size" : 21
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1626175338341,
+        "stop" : 1626175338693,
+        "duration" : 352
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9bf797f58f3b14ee",
+        "name" : "Request",
+        "source" : "9bf797f58f3b14ee.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "c7e31ed4587064c4",
+        "name" : "Response",
+        "source" : "c7e31ed4587064c4.json",
+        "type" : "application/json",
+        "size" : 548
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/7d21d497-b4d7-4224-8f3c-4d9c49372e17/click",
+      "time" : {
+        "start" : 1626175338709,
+        "stop" : 1626175338816,
+        "duration" : 107
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1626175338816,
+        "stop" : 1626175338856,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "adc534ac0f9ae94",
+        "name" : "Request",
+        "source" : "adc534ac0f9ae94.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "d3052f3e80e4f28e",
+        "name" : "Response",
+        "source" : "d3052f3e80e4f28e.json",
+        "type" : "application/json",
+        "size" : 548
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/71b39c2e-855d-476d-803f-821ca62979c3/text",
+      "time" : {
+        "start" : 1626175338892,
+        "stop" : 1626175338987,
+        "duration" : 95
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "550a094f3f2c9d67",
+        "name" : "Response",
+        "source" : "550a094f3f2c9d67.json",
+        "type" : "application/json",
+        "size" : 8
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 9,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "testClass",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Adding the item to the cart utill it get placing the order"
+  }, {
+    "name" : "package",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "149fb25f4a333bf0.json",
+  "parameterValues" : [ "chrome" ]
+}

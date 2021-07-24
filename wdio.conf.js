@@ -1,3 +1,6 @@
+const login = require('./test/commands/login.command') // diffrence
+const logout = require('./test/commands/logout.command')
+const common = require('./test/commands/common.command')
 exports.config = {
     //
     // ====================
@@ -24,7 +27,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/automate.spec.js'
+        './test/specs/**/inventory.spec.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -199,8 +202,18 @@ exports.config = {
      * @param {Array.<String>} specs        List of spec file paths that are to be run
      * @param {Object}         browser      instance of created browser/device session
      */
-    // before: function (capabilities, specs) {
-    // },
+     before: function (capabilities, specs) {
+        // Add commands to WebdriverIO
+        Object.keys(login).forEach(key => {
+          browser.addCommand(key, login[key]);
+        }),
+        Object.keys(logout).forEach(key => {
+            browser.addCommand(key, logout[key]);
+        })
+        Object.keys(common).forEach(key => {
+            browser.addCommand(key, common[key]);
+        })
+      },
     /**
      * Runs before a WebdriverIO command gets executed.
      * @param {String} commandName hook command name

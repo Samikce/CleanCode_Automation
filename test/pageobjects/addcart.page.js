@@ -17,7 +17,6 @@ class AddCartPage extends Page {
                 details.itemPrice.push(this.slicingFromDollar(this.getingPrice[index].getText()));
             }
          });
-         console.log(details + "Hello0");
          return details;
     }    
     slicingFromDollar(priceString)

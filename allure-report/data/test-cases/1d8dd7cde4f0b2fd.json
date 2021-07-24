@@ -1,0 +1,160 @@
+{
+  "uid" : "1d8dd7cde4f0b2fd",
+  "name" : "Add cart to checkout",
+  "fullName" : "Ordering the Product.Add cart to checkout",
+  "historyId" : "24d39953254b315d420c87792dc2a61b",
+  "time" : {
+    "start" : 1625748648628,
+    "stop" : 1625748648705,
+    "duration" : 77
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "item.toLowercase is not a function",
+  "statusTrace" : "TypeError: item.toLowercase is not a function\n                    at F:\\Automation\\Test\\test\\pageobjects\\checkout.page.js:23:51\n                    at Array.map (<anonymous>)\n                    at Checkout.adding_cart (F:\\Automation\\Test\\test\\pageobjects\\checkout.page.js:17:25)\n                    at Context.<anonymous> (F:\\Automation\\Test\\test\\specs\\example.e2e.js:30:18)\n                    at Context.executeSync (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "item.toLowercase is not a function",
+    "statusTrace" : "TypeError: item.toLowercase is not a function\n                    at F:\\Automation\\Test\\test\\pageobjects\\checkout.page.js:23:51\n                    at Array.map (<anonymous>)\n                    at Checkout.adding_cart (F:\\Automation\\Test\\test\\pageobjects\\checkout.page.js:17:25)\n                    at Context.<anonymous> (F:\\Automation\\Test\\test\\specs\\example.e2e.js:30:18)\n                    at Context.executeSync (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1625748648629,
+        "stop" : 1625748648651,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5374e19475e324f0",
+        "name" : "Request",
+        "source" : "5374e19475e324f0.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "80e20a89282ad882",
+        "name" : "Response",
+        "source" : "80e20a89282ad882.json",
+        "type" : "application/json",
+        "size" : 548
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/a11814f3-957e-4f1c-a9bf-c4cf583f8c64/text",
+      "time" : {
+        "start" : 1625748648661,
+        "stop" : 1625748648677,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b735e5425ce0aeda",
+        "name" : "Response",
+        "source" : "b735e5425ce0aeda.json",
+        "type" : "application/json",
+        "size" : 21
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/f91ed2a9-f8d7-43fb-91c1-367010db0784/text",
+      "time" : {
+        "start" : 1625748648677,
+        "stop" : 1625748648692,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "af6013beee17673d",
+        "name" : "Response",
+        "source" : "af6013beee17673d.json",
+        "type" : "application/json",
+        "size" : 23
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/f91ed2a9-f8d7-43fb-91c1-367010db0784/text",
+      "time" : {
+        "start" : 1625748648693,
+        "stop" : 1625748648703,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "33d6f98fa4f8572c",
+        "name" : "Response",
+        "source" : "33d6f98fa4f8572c.json",
+        "type" : "application/json",
+        "size" : 23
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 5,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "testClass",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add cart to checkout"
+  }, {
+    "name" : "package",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1d8dd7cde4f0b2fd.json",
+  "parameterValues" : [ "chrome" ]
+}

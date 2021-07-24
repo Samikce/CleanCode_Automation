@@ -1,0 +1,124 @@
+{
+  "uid" : "fcae328079475347",
+  "name" : "Logout Functionality",
+  "fullName" : "Ordering the Product.Logout Functionality",
+  "historyId" : "edca57f3525ae257b16e7255d0325b9b",
+  "time" : {
+    "start" : 1626694537371,
+    "stop" : 1626694537545,
+    "duration" : 174
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "browser.logoutProcedure is not a function",
+  "statusTrace" : "TypeError: browser.logoutProcedure is not a function\n                    at Context.<anonymous> (F:\\Automation\\Test\\test\\specs\\inventory.spec.js:22:17)\n                    at Context.executeSync (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "browser.logoutProcedure is not a function",
+    "statusTrace" : "TypeError: browser.logoutProcedure is not a function\n                    at Context.<anonymous> (F:\\Automation\\Test\\test\\specs\\inventory.spec.js:22:17)\n                    at Context.executeSync (F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at F:\\Automation\\Test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1626694537372,
+        "stop" : 1626694537509,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5b34dd4462f8c88b",
+        "name" : "Request",
+        "source" : "5b34dd4462f8c88b.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "994e079221e0e872",
+        "name" : "Response",
+        "source" : "994e079221e0e872.json",
+        "type" : "application/json",
+        "size" : 1008
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1626694537513,
+        "stop" : 1626694537537,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f9b716ea9661ca83",
+        "name" : "Request",
+        "source" : "f9b716ea9661ca83.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "2b0853fdbbf09d55",
+        "name" : "Response",
+        "source" : "2b0853fdbbf09d55.json",
+        "type" : "application/json",
+        "size" : 1006
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 4,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "testClass",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Logout Functionality"
+  }, {
+    "name" : "package",
+    "value" : "Ordering the Product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fcae328079475347.json",
+  "parameterValues" : [ "chrome" ]
+}
