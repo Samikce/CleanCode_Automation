@@ -8,10 +8,11 @@ class LoginPage extends Page {
     /* This enterEmail function will navigate to the application login page through the URL and enter the credentials
     and login to the account */
 
-    enterEmail (){
+    enterLoginCredentials (){
         browser.url('https://my.staging.answerconnect.app/');
-        this.email.setValue('rufus@answerconnect.com');
-        this.password.setValue("test123123")
+        browser.setting(this.email,'rufus@answerconnect.com');
+        browser.setting(this.password,'test123123');
+        browser.clicking(this.loginButton);
     }
 }
 module.exports = new LoginPage();

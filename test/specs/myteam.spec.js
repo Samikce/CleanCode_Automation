@@ -9,23 +9,18 @@ describe('Automation test for answerconnect', function (){
         browser.maximizeWindow();
     });
     it('Add Team functionality on Answerconnect', () => {
-        LoginPage.enterEmail();
+        LoginPage.enterLoginCredentials();
         SettingsPage.settings.waitForDisplayed({timeout : 80000})
         SettingsPage.settings.click();
-        SettingsPage.myDirectory.waitForDisplayed({timeout : 80000})
-        SettingsPage.myDirectory.click();
-        SettingsPage.addTeam.waitForDisplayed({timeout : 80000})
-        SettingsPage.addTeam.click();
+        browser.clicking(SettingsPage.myDirectory);
+        browser.clicking(SettingsPage.addTeam);
         let initialCount = VerifyPage.verifyTeamName(TestData.teamName);
-        AddingTeamPage.addingTeamName.waitForDisplayed();
-        AddingTeamPage.addingTeamName.setValue(TestData.teamName);
-        AddingTeamPage.clickToAddMembers.waitForDisplayed()
-        AddingTeamPage.clickToAddMembers.click();
+        browser.setting(AddingTeamPage.addingTeamName,TestData.teamName);
+        browser.clicking(AddingTeamPage.clickToAddMembers);
         AddingTeamPage.addMembers(TestData.members,TestData.id);
-        AddingTeamPage.saveButton.waitForDisplayed()
-        AddingTeamPage.saveButton.click();
+        browser.clicking(AddingTeamPage.saveButton);
         VerifyPage.notificationWraper.waitForDisplayed();
-        let text = VerifyPage.notificationWraper.getText();
+        let text = browser.getting(VerifyPage.notificationWraper);
         expect("Team Created Successfully").to.equal(text);
         let lastCount = VerifyPage.verifyTeamName(TestData.teamName);
         //console.log("***" + text + " " + initialCount + " " + lastCount);
