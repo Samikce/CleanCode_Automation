@@ -21,7 +21,7 @@ class AddingTeamPage extends Page {
                 browser.pause(3000); // If we didn't use pause here it will add the member very random like it adding the members apart from the list we passed it happens in some times
                 if(id[i] == this.members[j].getAttribute("id"));
                 {
-                    this.members[j].waitForDisplayed({timeout : 80000});
+                    this.members[j].waitForDisplayed();
                     this.members[j].click();
                     break;
                 }

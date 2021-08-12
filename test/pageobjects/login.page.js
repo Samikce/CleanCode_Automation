@@ -12,7 +12,6 @@ class LoginPage extends Page {
         browser.url('https://my.staging.answerconnect.app/');
         this.email.setValue('rufus@answerconnect.com');
         this.password.setValue("test123123")
-        this.loginButton.click();
     }
 }
 module.exports = new LoginPage();
