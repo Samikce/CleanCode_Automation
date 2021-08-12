@@ -14,6 +14,7 @@ class VerifyPage extends Page {
                 // this.teamNameVerify[i].waitForDisplayed();
                 // console.log(this.teamNameVerify[i].getText() + " Hello");
                 count = count + 1;
+
             }
         }
         return count;
