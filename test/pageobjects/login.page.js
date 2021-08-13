@@ -10,9 +10,9 @@ class LoginPage extends Page {
 
     enterLoginCredentials (){
         browser.url('https://my.staging.answerconnect.app/');
-        browser.setting(this.email,'rufus@answerconnect.com');
-        browser.setting(this.password,'test123123');
-        browser.clicking(this.loginButton);
+        browser.customSetValue(this.email,'rufus@answerconnect.com',"The Email");
+        browser.customSetValue(this.password,'test123123',"The Password");
+        browser.customClick(this.loginButton,"The login button is");
     }
 }
 module.exports = new LoginPage();

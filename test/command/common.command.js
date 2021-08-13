@@ -1,18 +1,19 @@
 const allure  = require('@wdio/allure-reporter').default
 module.exports = {
-    getting : function (element) {
+    customGetText : function (element) {
         element.waitForDisplayed();
         return element.getText();
     },
-    setting : function(element,text,message = "Setted Sucessfully.") {
+    customSetValue : function(element,text,message = "The value") {
         element.waitForDisplayed();
         element.setValue(text);
-        allure.addStep("The value is " + message);
+        allure.addStep(message + " Entered Sucessfully.");
     },
-    clicking : function(element,message = "Clicked Sucessfully."){
+    customClick : function(element,message = "Element"){
         element.waitForDisplayed();
+        element.waitForClickable();
         element.click();
-        allure.addStep("Clicking to the element is  " + message);
+        allure.addStep(message + " Clicked Sucessfully");
     }
 }
 /*This file consist of common commands alone which is frequently used in the test*/

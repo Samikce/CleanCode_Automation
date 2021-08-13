@@ -9,7 +9,7 @@ class VerifyPage extends Page {
         for(let i=0;i<this.teamNameVerify.length;i++)
         {
             //val.push(this.teamNameVerify[i].getText() + "  |  ");
-            if(teamName == browser.getting(this.teamNameVerify[i]))
+            if(teamName == browser.customGetText(this.teamNameVerify[i]))
             {
                 // this.teamNameVerify[i].waitForDisplayed();
                 // console.log(this.teamNameVerify[i].getText() + " Hello");

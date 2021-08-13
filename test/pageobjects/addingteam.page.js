@@ -13,14 +13,14 @@ class AddingTeamPage extends Page {
     addMembers(membersList,id){
         for(let i=0;i<membersList.length;i++)
         {
-            browser.setting(this.searchbar,membersList[i]);
+            browser.customSetValue(this.searchbar,membersList[i],"On the search bar name of the member is");
             var n = this.members.length
             for(let j=0;j<n;j++)
             {
                 browser.pause(3000); // If we didn't use pause here it will add the member very random like it adding the members apart from the list we passed it happens in some times
                 if(id[i] == this.members[j].getAttribute("id"));
                 {
-                    browser.clicking(this.members[j]);
+                    browser.customClick(this.members[j],"The add button in members list");
                     break;
                 }
             }
