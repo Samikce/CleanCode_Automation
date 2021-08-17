@@ -1,16 +1,17 @@
 const addingTeam = require("../pageobjects/addingteam.page");
-const LoginPage = require("../pageobjects/login.page");
+const loginPage = require("../pageobjects/login.page");
 const settingsClick = require("../pageobjects/settings.page");
 const testData = require('../data/testdata.data');
 const verifyingTeam = require("../pageobjects/verifyteamname.page");
 const editTeam = require("../pageobjects/editteam.page")
+const deleteTeam = require("../pageobjects/deleteteam.page")
 const { expect } = require("chai");
 describe('Automation test for answerconnect', function (){
     before(() => {
         browser.maximizeWindow();
     });
     it('Add Team functionality on Answerconnect', () => {
-        LoginPage.enterLoginCredentials();
+        loginPage.enterLoginCredentials();
         browser.customClick(settingsClick.settings,"The Settings icon is");
         browser.customClick(settingsClick.myDirectory,"The My Directory is");
         browser.customClick(settingsClick.addTeam, "The Add Team button is");
@@ -34,6 +35,12 @@ describe('Automation test for answerconnect', function (){
         expect("Team Details Updated!").to.equal(text);
         //editTeam.verifyMembers();
         expect(testData.editTeam.id).to.not.includes(editTeam.verifyMembers());
+        browser.pause(3000);
+    });
+    it('Deleting the team on the answerconnect', () => {
+        deleteTeam.deletingTeam('FULL');
+        let lastCount = verifyingTeam.verifyTeamName(testData.addTeam.teamName);
+        expect(0).to.equal(lastCount);
         browser.pause(3000);
     });
 });

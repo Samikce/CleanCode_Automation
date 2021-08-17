@@ -17,8 +17,9 @@ class VerifyPage extends Page {
 
             }
         }
+        //console.log(val + " ****Hello ");
         return count;
-        //console.log(count + " ****Hello ")
+        
     }
 }
 module.exports = new VerifyPage();

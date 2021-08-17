@@ -10,7 +10,7 @@ module.exports = {
         allure.addStep(message + " Entered Sucessfully.");
     },
     customClick : function(element,message = "Element"){
-        element.waitForDisplayed();
+        //element.waitForDisplayed();
         element.waitForClickable();
         element.click();
         allure.addStep(message + " Clicked Sucessfully");
